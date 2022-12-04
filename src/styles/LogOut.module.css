@@ -1,0 +1,30 @@
+.container{
+    width: 40%;
+    height: 150px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 45px;
+}
+
+.head{
+    text-decoration: underline;
+    color: teal;
+   
+}
+
+
+.btn{
+    background-color: white;
+    color: teal;
+    border: 1px solid teal;
+    padding: 5px 10px;
+}
+.btn:hover{
+    background-color: teal;
+    color: white;
+}
